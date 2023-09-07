@@ -1,11 +1,33 @@
+/* Wildcard selector is being used */
+*{
+    margin: 0;
+    padding: 0;
+    /*This is just a formality, so the browser doesn't act up*/
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header*/
 header {
     background-color: rebeccapurple;
 }
 
+/* Main */
 main{
     background-color: #5B8E92;
+    /* will take all space, will not shrink, will take up all the space that is required by it's content*/
+    /* Essentially, pushes footer down*/
+    flex: 1 0 auto;
+    
 }
 
+/* Footer  */
 footer {
     background-color: blueviolet;
 }
