@@ -24,6 +24,10 @@ header {
     background-color: rebeccapurple;
 }
 
+h1{
+    font-family: "Josefin Sans", sans-serif;
+}
+
 /* Main */
 main {
     background-color: #5B8E92;
