@@ -4,8 +4,8 @@
 
 /* Wildcard selector is being used */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     /*This is just a formality, so the browser doesn't act up*/
     box-sizing: border-box;
 }
@@ -34,12 +34,24 @@ header a {
     color: inherit;
 }
 
+
 h1 {
     font-family: "Josefin Sans", sans-serif;
-    text-transform: lowercase;
-    letter-spacing: 2.5px;
+    text-transform: none;
+    letter-spacing: 2px;
     /*Change Color Later To Brand*/
     color: inherit;
+    padding-top: 1rem;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: inherit;
+    list-style-type: none;
+}
+
+#menu > li{
+    margin-bottom: 1em;
 }
 
 /* Main */
