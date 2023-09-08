@@ -139,6 +139,7 @@ footer {
 /*For Screens 375px and larger*/
 @media screen and (min-width: 375px){
 
+    /* Header / Navigation section */
     header {
             
             height: 80px;    
@@ -176,6 +177,7 @@ footer {
 /* Screen Sizes 768px and up, for Tablets and really big Phones*/
 @media screen and (min-width: 768px){
 
+    /* Header / Navigation section */
     header { 
         display: flex;
         justify-content: center;
@@ -203,6 +205,7 @@ footer {
 
 @media screen and (min-width: 1200px){
 
+    /* Header / Navigation section */
     nav {
             display: block;
             position: relative;
