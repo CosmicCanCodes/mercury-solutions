@@ -22,7 +22,7 @@ body {
 /* Header*/
 header {
     background-color: #ffffff;
-    padding: 0 1rem;
+    padding: 10px 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -38,6 +38,11 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
+/* Change HR color later on */
+/*hr {
+    border-color: #3a3a3a transparent;
+}*/
 
 
 h1 {
@@ -96,8 +101,8 @@ nav {
 
 .nav-toggle-m {
     font-size: 2rem;
-     line-height: 1;
-     padding-left:1rem;
+    line-height: 1;
+    padding-left:1rem;
     
 }
 
@@ -118,11 +123,39 @@ main {
     /* will take all space, will not shrink, will take up all the space that is required by it's content*/
     /* Essentially, pushes footer down*/
     flex: 1 0 auto;
-    margin-top: 45px;
+    margin-top: 52px;
 
 }
 
 /* Footer  */
 footer {
     background-color: blueviolet;
+}
+
+/* Screen Sizes 768px and up, for Tablets and really big Phones*/
+@media screen and (min-width: 768px){
+
+    header { 
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu {
+         font-size: 1.25rem;
+         letter-spacing: inherit;
+         list-style-type: none;
+         display: flex;
+         justify-content: space-around;
+            /* padding: 0 10px;*/
+    }
+
+    /* Show the nav element by default on larger screens */
+    nav {
+        display: block;
+        }
+
+      #nav-toggle {
+        display: none;
+        }
+
 }
