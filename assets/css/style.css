@@ -26,6 +26,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    height:10%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-evenly;
@@ -33,6 +34,8 @@ header {
     padding-bottom: .5rem;
     
 }
+
+
 
 header a {
     text-decoration: none;
@@ -130,6 +133,30 @@ main {
 /* Footer  */
 footer {
     background-color: blueviolet;
+}
+
+
+@media screen and (min-width: 375px){
+
+    #logo {
+            font-family: "Josefin Sans", sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            color: inherit;
+            padding-top: 1.5rem;
+            line-height: 1;
+        }
+        
+    #menu {
+            font-size: 1.2rem;
+            letter-spacing: inherit;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 0 10px;
+            padding-top: 10px;
+        }
 }
 
 /* Screen Sizes 768px and up, for Tablets and really big Phones*/
