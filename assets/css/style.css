@@ -132,7 +132,7 @@ main {
 
 /* Form Section */
 
-#connect > h2 {
+#connect_form > h2 {
     margin-bottom: 1vh;
     color:rgb(219, 219, 219);
 }
@@ -141,12 +141,12 @@ main {
     background-image: url(../images/hero.jpg);
     background-size: cover;
     background-position: 1%;
-    padding: 100px 10% 0 10%;
+    padding: 10% 10% 30px 10%;
     flex-grow: 1;
-    margin-bottom: 20px;   
+  
 }
 
-#connect {
+#connect_form {
     background-color: rgba(47, 47, 47, 0.8);
     padding: 25px;
 }
@@ -162,7 +162,13 @@ label {
     border-radius: 5px;
 }
 
+.connect_button {
+    padding: 15px; 
+    font-size: 110%;
+    background-color: #0fe6f6; /* CAll to action color: */
+    color:rgb(114, 114, 114);
 
+}
 
 /* Footer  */
 #socials {
@@ -250,6 +256,14 @@ label {
         display: none;
         }
 
+    /* Main Section */
+
+    /* Form Section */
+
+        #background-form {
+        padding: 100px 10% 30px 10%;
+        }
+
 }
 
 /*Screen Sizes 968 and upwards -  Laptops to Desktops*/
@@ -289,4 +303,14 @@ label {
     main {
         margin-top: 60px;
     }
+
+    /* Form */
+
+    #connect_form {
+        max-width: 50vh;
+        background-position: 75%;
+}
+    #background-form {
+         padding: 55px 10% 30px 10%;
+ }
 }
