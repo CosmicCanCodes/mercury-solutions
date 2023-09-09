@@ -40,7 +40,40 @@
     </header>
 
     <!--    Main Content    -->
-    <main>Main Content</main>
+    <main>
+        <section id="background-form">
+            <section id="connect">
+            <h2>Ready to Discover? <br> Contact us today!</h2>
+            <form id="form-information"action="https://formdump.codeinstitute.net" method="POST">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" class="text-field" required><br><br>
+
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" class="text-field" required><br><br>
+            
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" class="text-field"required><br><br>
+            
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" class="text-field"><br><br>
+            
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" class="text-field" required>
+                    <option value="Consultation Request">Consultation Request</option>
+                    <option value="Business Partnership">Business Partnership</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Birth Chart Reading">Birth Chart Reading</option>
+                </select><br><br>
+            
+                <label for="message">Message (up to 300 characters):</label>
+                <textarea id="message" name="message" maxlength="300" class="text-field"required></textarea><br><br>
+            
+                <input type="submit" class="connect" value="Let's Connect">
+            </form>
+            </section>
+        </section>
+    </main>
+
     <!--    Footer  -->
     <footer id="socials">
         <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
