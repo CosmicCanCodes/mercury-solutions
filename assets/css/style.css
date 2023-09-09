@@ -123,8 +123,19 @@ main {
 }
 
 /* Footer  */
-footer {
+#socials {
     background-color: blueviolet;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+#socials li {
+    padding: 1vh;
+    color:#0fe6f6;
 }
 
 /*For Screens 375px and larger*/
