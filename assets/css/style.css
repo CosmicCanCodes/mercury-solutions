@@ -197,8 +197,16 @@ label {
     color:blanchedalmond;
 }
 
-/*For Screens 375px and larger*/
-@media screen and (min-width: 375px) and (max-width:1024px){
+/*For Screens 280px and larger*/
+@media screen and (min-width: 280px) and {
+
+    .discover {
+            display: none;
+        }
+}
+
+/*For Screens 320px and larger*/
+@media screen and (min-width: 320px) {
 
     /* Header / Navigation section */
     header {
@@ -233,12 +241,17 @@ label {
         margin-top: 80px;
     }
 
+    /* Form section */
+    
+    .discover {
+      display: none;
+}
 
 }
 
 
 /* Screen Sizes 768px and up, for Tablets and really big Phones*/
-@media screen and (min-width: 768px) and (max-width:1023px){
+@media screen and (min-width: 768px) {
 
     /* Header / Navigation section */
     header { 
@@ -267,6 +280,10 @@ label {
 
         #background-form {
         padding: 100px 10% 30px 10%;
+        }
+
+    .discover {
+        display: none;
         }
 
 }
@@ -312,20 +329,32 @@ label {
     /* Form */
 
     #connect_form {
-        min-width: 70vh;
+        width: 50vh;
        
         background-position: 75%;
 }
     #background-form {
-         padding: 55px 10% 30px 10%;
         display: flex;
-            flex-direction: row;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
             justify-content: space-around;
-            align-items: flex-start;
-            gap: 35px;
+            align-items: center;
+            gap: 5px;
  }
+ 
+    #container_about {
+        gap:35px;
+    }
 
-    #about-us {
+    .section1,
+    .section2,
+    .section3,
+    .section4 {
+        width:400px;
+    }
+
+    #about_us {
+        width:40%;
     
     }
 }
