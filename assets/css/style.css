@@ -113,6 +113,8 @@ nav {
 
 
 /* Main */
+
+
 main {
     background-color: #5B8E92;
     /* will take all space, will not shrink, will take up all the space that is required by it's content*/
@@ -130,12 +132,11 @@ main {
     background: url(../images/hero.jpg) no-repeat center center/cover;
 }
 
-/* Form Section */
+/* Landing Page*/
 
-#connect_form > h2 {
-    margin-bottom: 1vh;
-    color:rgb(219, 219, 219);
-}
+.homepage-text
+
+/* Form Section */
 
 #background-form{
     background-image: url(../images/hero.jpg);
@@ -145,9 +146,26 @@ main {
     flex-grow: 1;  
 }
 
-#connect_form {
-    background-color: rgba(47, 47, 47, 0.8);
+#container-about{
+    /* This targets both the form and the text if necessary*/
+}
+
+
+#connect-form {
+    background-color: #808080;
     padding: 25px;
+}
+
+.section2{
+    padding: 0 20px 20px;
+    background-color: rgba(238, 238, 238, 0.75);
+    font-weight: 600;
+    font-size: large;
+}
+
+#connect-form>h2 {
+    margin-bottom: 1vh;
+    color: rgb(219, 219, 219);
 }
 
 label {
@@ -161,7 +179,7 @@ label {
     border-radius: 5px;
 }
 
-.connect_button {
+.connect-button {
     padding: 15px; 
     font-size: 110%;
     background-color: #0fe6f6; /* CAll to action color: */
@@ -328,32 +346,35 @@ label {
 
     /* Form */
 
-    #connect_form {
+    #connect-form {
         width: 50vh;
+        float: left;
     }
    
     #background-form {
+        padding: 65px 10% 30px 10%
        
  }
- 
-    #container_about {
-        gap:35px;
-        display: flex;
-            flex-direction: row-reverse;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            gap: 5px;
-    }
-
-    .section1
-    {
-        position: relative;
+ #container-about{
+    display: flex;
+   
+ }
+    .section1 {
+       
     }
     .section2,
-    .section3,
+    .section3 {
+        width:500px;
+        padding-left: 25px;
+        padding: 0 20px 20px;              
+    }
+    .section3{
+       
+    }
+
     .section4 {
-        width:400px;
+       
+       
     }
 
     #about_us {
