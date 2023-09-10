@@ -150,7 +150,6 @@ main {
     font-weight: 600;
     font-size: large;
     background-color: #ffffff;
-    display: flex;
 }
 
 .transparent-overlay {
@@ -326,6 +325,10 @@ label {
 /* Screen Sizes 768px and up, for Tablets and really big Phones*/
 @media screen and (min-width: 768px) {
 
+    main {
+        margin-top: 154px;
+    }
+
     hr {
         display: none;
     }
@@ -377,14 +380,15 @@ label {
     .review-flex {
         display: flex;
         flex-wrap: wrap;
-        gap: 15%;
-        justify-content: space-around;
-        align-items: center;
+        gap: 2%;
+        justify-content: space-evenly;
         }
     
         .review {
-            width: 30vh;
-            text-align: center;
+        flex: 1 0 45%;
+        margin: 0 10px;
+        text-align: center;
+        padding-top:40px;
         }
     /* Form Section */
 
@@ -402,6 +406,11 @@ label {
 
 @media screen and (min-width: 1024px) {
 
+
+    main {
+            margin-top: 60px;
+    }
+    
     /*This is the Header/ Navigation section*/
     header {
         justify-content: space-between;
@@ -435,6 +444,15 @@ label {
     main {
         margin-top: 60px;
     }
+
+    /* Review */
+
+        .review {
+            flex: 1 0 30%;
+            margin: 0 10px;
+            text-align: center;
+            gap: 15px;
+        }
 
     /* Form */
 
