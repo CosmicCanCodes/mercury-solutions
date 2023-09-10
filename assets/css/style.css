@@ -19,6 +19,10 @@ body {
     color: #3a3a3a;
 }
 
+a.link-text {
+    text-decoration: underline;
+}
+
 /* Header*/
 header {
     background-color: #808080;
@@ -31,7 +35,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-bottom: .5rem; 
+    padding-bottom: .5rem;
 }
 
 
@@ -40,9 +44,7 @@ a {
     color: inherit;
 }
 
-a.link-text {
-    text-decoration: underline;
-}
+
 
 
 
@@ -55,7 +57,8 @@ a.link-text {
 h1 {
     font-family: "Josefin Sans", sans-serif;
     text-transform: none;
-    letter-spacing: 2px;;
+    letter-spacing: 2px;
+    ;
     /*Change Color Later To Brand*/
     color: inherit;
     padding-top: 1rem;
@@ -85,14 +88,14 @@ h1 {
 /* Navbar! The basic structure of the navbar in the "Love Running" Project was taken as a template */
 
 nav {
-    position: absolute; 
+    position: absolute;
     background-color: white;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-    width:100%;
+    width: 100%;
 }
 
 #nav-toggle:checked~nav {
@@ -105,9 +108,9 @@ nav {
 
 .nav-toggle-m {
     font-size: 2rem;
-    padding-left:1rem;
+    padding-left: 1rem;
     padding-bottom: 7px;
-    
+
 }
 
 #logo {
@@ -132,7 +135,7 @@ main {
 }
 
 /* Hero */
-#hero{
+#hero {
     height: 500px;
     width: 100%;
     background: url(../images/hero.jpg) no-repeat center center/cover;
@@ -140,20 +143,21 @@ main {
 
 /* Landing Page*/
 
-.text-background{
+.text-background {
     padding: 0 20px 20px;
     font-weight: 600;
     font-size: large;
     background-color: #ffffff;
     display: flex;
-
-   
 }
 
 .text {
     background-color: rgba(238, 238, 238, 0.75);
     padding: 25px;
 }
+
+
+
 
 /* Form Section */
 #background-form {
@@ -164,7 +168,7 @@ main {
     flex-grow: 1;
 }
 
-#container-about{
+#container-about {
     /* This targets both the form and the text if necessary*/
 }
 
@@ -189,7 +193,7 @@ main {
 }
 
 label {
-    color:rgb(219, 219, 219);
+    color: rgb(219, 219, 219);
 }
 
 .text-field {
@@ -200,47 +204,46 @@ label {
 }
 
 .connect-button {
-    padding: 15px; 
+    padding: 15px;
     font-size: 110%;
-    background-color: #0fe6f6; /* CAll to action color: */
-    color:rgb(114, 114, 114);
+    background-color: #0fe6f6;
+    /* CAll to action color: */
+    color: rgb(114, 114, 114);
 
 }
 
 /* About us Section */
 
-#about_us {
-    
-}
+#about_us {}
 
 /* Footer  */
 #socials {
     background-color: rgb(114, 114, 114);
     text-align: center;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
-    
+
 
 }
 
 #socials li {
     padding: 1.5vh;
-    color:#0fe6f6;
+    color: #0fe6f6;
 }
 
 #socials i {
     font-size: 1.4rem;
-    color:blanchedalmond;
+    color: blanchedalmond;
 }
 
 /*For Screens 280px and larger*/
 @media screen and (min-width: 280px) and {
 
     .discover {
-            display: none;
-        }
+        display: none;
+    }
 }
 
 /*For Screens 320px and larger*/
@@ -248,42 +251,42 @@ label {
 
     /* Header / Navigation section */
     header {
-            height: 80px;    
-        }
+        height: 80px;
+    }
 
     #logo {
-            font-size: 1.5rem;
-            padding-top: 18px;
-        }
+        font-size: 1.5rem;
+        padding-top: 18px;
+    }
 
     .nav-toggle-m {
-            font-size: 2.5rem;
-            padding-top: 0.8rem;
-}
+        font-size: 2.5rem;
+        padding-top: 0.8rem;
+    }
 
     #menu {
-            font-size: 1.2rem;
-            padding: 0 10px 5px;
-            padding-top: 7px;
-            justify-content: space-around;
-        }
-    
+        font-size: 1.2rem;
+        padding: 0 10px 5px;
+        padding-top: 7px;
+        justify-content: space-around;
+    }
+
     #menu>li {
-            font-size: 1.2rem;
-            padding-bottom: 10px;
-        }
-    
-        /* This is the Main Section*/
+        font-size: 1.2rem;
+        padding-bottom: 10px;
+    }
+
+    /* This is the Main Section*/
 
     main {
         margin-top: 80px;
     }
 
     /* Form section */
-    
+
     .discover {
-      display: none;
-}
+        display: none;
+    }
 
 }
 
@@ -292,70 +295,89 @@ label {
 @media screen and (min-width: 768px) {
 
     /* Header / Navigation section */
-    header { 
+    header {
         display: flex;
         justify-content: center;
     }
 
     #menu {
-         font-size: 1.25rem;
-         display: flex;
-            /* padding: 0 10px;*/
+        font-size: 1.25rem;
+        display: flex;
+        /* padding: 0 10px;*/
     }
 
     /* Show the nav element by default on larger screens */
     nav {
         display: block;
-        }
+    }
 
-      #nav-toggle {
+    #nav-toggle {
         display: none;
-        }
+    }
 
     /* Main Section */
 
+    /* Landing Page*/
+
+    .planets {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: space-evenly;
+        padding: 20px 20px 20px 20px;
+        align-items: stretch;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .planets-direct {
+        width: 40%;
+        height: 40%;
+        text-align: center;
+    }
+
     /* Form Section */
 
-        #background-form {
+    #background-form {
         padding: 100px 10% 30px 10%;
-        }
+    }
 
     .discover {
         display: none;
-        }
+    }
 
 }
 
 /*Screen Sizes 968 and upwards -  Laptops to Desktops*/
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
 
     /*This is the Header/ Navigation section*/
-    header { 
+    header {
         justify-content: space-between;
         height: 60px;
     }
-    
+
     nav {
-            display: block;
-            position: relative;
-            width: 30vh;
-            top: 0;
-            box-shadow: none;
-            width:fit-content;
-            background-color: inherit;
-            height: 60px;  
-        }
+        display: block;
+        position: relative;
+        width: 30vh;
+        top: 0;
+        box-shadow: none;
+        width: fit-content;
+        background-color: inherit;
+        height: 60px;
+    }
 
     hr {
         display: none;
     }
-    
+
     #menu {
         padding-right: 0px;
     }
 
-    .nav-toggle-m{
+    .nav-toggle-m {
         display: none;
     }
 
@@ -370,26 +392,25 @@ label {
         width: 50vh;
         float: left;
     }
-   
+
     #background-form {
         padding: 65px 10% 30px 10%
-       
- }
- #container-about{
-    display: flex;
-   
- }
-    .section1 {
-       
     }
-    .section2
-    {
-        width:500px;
+
+    #container-about {
+        display: flex;
+
+    }
+
+    .section1 {}
+
+    .section2 {
+        width: 500px;
         padding-left: 25px;
-        padding: 0 20px 20px;              
+        padding: 0 20px 20px;
     }
 
     .cosmic {
-            padding-top: 22px;
-     }
+        padding-top: 22px;
+    }
 }
