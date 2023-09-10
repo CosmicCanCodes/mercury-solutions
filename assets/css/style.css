@@ -19,9 +19,15 @@ body {
     color: #3a3a3a;
 }
 
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 a.link-text {
     text-decoration: underline;
 }
+
 
 /* Header*/
 header {
@@ -43,9 +49,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
-
-
 
 
 /* Change HR color later on */
@@ -123,9 +126,8 @@ nav {
 
 /* Main */
 
-
-main {
-    background-color: #5B8E92;
+main {   
+     background-color: #5B8E92;
     /* will take all space, will not shrink, will take up all the space that is required by it's content*/
     /* Essentially, pushes footer down*/
     flex: 1 0 auto;
@@ -151,15 +153,45 @@ main {
     display: flex;
 }
 
-.text {
+.transparent-overlay {
     background-color: rgba(238, 238, 238, 0.75);
     padding: 25px;
+}
+
+/* Review Page */
+
+
+
+.review {
+    padding-top: 20px;
+}
+
+/*Images*/
+
+.image-customer{
+    max-width:100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.review img {
+    height:300px;
+        width: 300px;
+        border-radius: 50%;
+}
+
+.john {
+    object-position: 100% 0;
 }
 
 
 
 
-/* Form Section */
+/* Form Page */
 #background-form {
     background-image: url(../images/hero.jpg);
     background-size: cover;
@@ -294,6 +326,10 @@ label {
 /* Screen Sizes 768px and up, for Tablets and really big Phones*/
 @media screen and (min-width: 768px) {
 
+    hr {
+        display: none;
+    }
+
     /* Header / Navigation section */
     header {
         display: flex;
@@ -336,6 +372,20 @@ label {
         text-align: center;
     }
 
+    /* Review Page*/
+
+    .review-flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15%;
+        justify-content: space-around;
+        align-items: center;
+        }
+    
+        .review {
+            width: 30vh;
+            text-align: center;
+        }
     /* Form Section */
 
     #background-form {
