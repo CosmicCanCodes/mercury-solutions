@@ -142,8 +142,7 @@ main {
     background-size: cover;
     background-position: 1%;
     padding: 10% 10% 30px 10%;
-    flex-grow: 1;
-  
+    flex-grow: 1;  
 }
 
 #connect_form {
@@ -168,6 +167,12 @@ label {
     background-color: #0fe6f6; /* CAll to action color: */
     color:rgb(114, 114, 114);
 
+}
+
+/* About us Section */
+
+#about_us {
+    
 }
 
 /* Footer  */
@@ -307,10 +312,20 @@ label {
     /* Form */
 
     #connect_form {
-        max-width: 50vh;
+        min-width: 70vh;
+       
         background-position: 75%;
 }
     #background-form {
          padding: 55px 10% 30px 10%;
+        display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+            gap: 35px;
  }
+
+    #about-us {
+    
+    }
 }
