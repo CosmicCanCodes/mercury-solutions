@@ -35,10 +35,16 @@ header {
 }
 
 
-header a {
+a {
     text-decoration: none;
     color: inherit;
 }
+
+a.link-text {
+    text-decoration: underline;
+}
+
+
 
 /* Change HR color later on */
 /*hr {
@@ -134,8 +140,19 @@ main {
 
 /* Landing Page*/
 
-.homepage-text {
+.text-background{
+    padding: 0 20px 20px;
+    font-weight: 600;
+    font-size: large;
+    background-color: #ffffff;
+    display: flex;
 
+   
+}
+
+.text {
+    background-color: rgba(238, 238, 238, 0.75);
+    padding: 25px;
 }
 
 /* Form Section */
@@ -157,12 +174,14 @@ main {
     padding: 25px;
 }
 
-.section2{
+.section2 {
     padding: 0 20px 20px;
     background-color: rgba(238, 238, 238, 0.75);
     font-weight: 600;
     font-size: large;
 }
+
+
 
 #connect-form>h2 {
     margin-bottom: 1vh;
@@ -363,23 +382,14 @@ label {
     .section1 {
        
     }
-    .section2,
-    .section3 {
+    .section2
+    {
         width:500px;
         padding-left: 25px;
         padding: 0 20px 20px;              
     }
-    .section3{
-       
-    }
 
-    .section4 {
-       
-       
-    }
-
-    #about_us {
-        width:40%;
-    
-    }
+    .cosmic {
+            padding-top: 22px;
+     }
 }
