@@ -330,23 +330,26 @@ label {
 
     #connect_form {
         width: 50vh;
-       
-        background-position: 75%;
-}
+    }
+   
     #background-form {
+       
+ }
+ 
+    #container_about {
+        gap:35px;
         display: flex;
             flex-direction: row-reverse;
             flex-wrap: wrap;
             justify-content: space-around;
             align-items: center;
             gap: 5px;
- }
- 
-    #container_about {
-        gap:35px;
     }
 
-    .section1,
+    .section1
+    {
+        position: relative;
+    }
     .section2,
     .section3,
     .section4 {
