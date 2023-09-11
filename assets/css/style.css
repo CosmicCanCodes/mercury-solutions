@@ -136,11 +136,39 @@ main {
     flex-direction: column;
 }
 
-/* Hero */
+/*Images*/
 #hero {
     height: 500px;
     width: 100%;
     background: url(../images/hero.jpg) no-repeat center center/cover;
+}
+
+.image-customer,
+.image-planet {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.review img,
+.image-planet {
+    aspect-ratio: 1;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 280px;
+    max-height: 280px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.john {
+    object-position: 100% 0;
 }
 
 /* Landing Page*/
@@ -157,40 +185,12 @@ main {
     padding: 25px;
 }
 
+
+
 /* Review Page */
-
-
 
 .review {
     padding-top: 20px;
-}
-
-/*Images*/
-
-.image-customer{
-    max-width:100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    object-fit: cover;
-    object-position: center;
-    
-}
-
-.review img {
-    aspect-ratio: 1;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 50%;
-        width: 100%;
-        max-width: 280px;
-        max-height: 280px;
-             object-fit: cover; 
-        object-position: center;
-}
-
-.john {
-    object-position: 100% 0;
 }
 
 
@@ -343,6 +343,11 @@ label {
             text-align: left;
     }
 
+    .planets p,
+    .review p {
+        text-align: center;
+    }
+
     hr {
         display: none;
     }
@@ -399,10 +404,10 @@ label {
         }
     
         .review {
-        flex: 1 0 45%;
+        flex: 1 0 40%;
         margin: 0 10px;
         text-align: center;
-        padding-top:40px;
+        padding: 30px;
         }
     /* Form Section */
 
@@ -461,7 +466,8 @@ label {
 
     /* Review */
 
-        .review {
+        .review,
+        {
             flex: 1 0 30%;
             margin: 0 10px;
             text-align: center;
