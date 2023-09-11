@@ -19,10 +19,7 @@ body {
     color: #3a3a3a;
 }
 
-h3 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
 
 a.link-text {
     text-decoration: underline;
@@ -50,25 +47,26 @@ a {
     color: inherit;
 }
 
-
-/* Change HR color later on */
-/*hr {
-    border-color: #3a3a3a transparent;
-}*/
-
-
 h1 {
     font-family: "Josefin Sans", sans-serif;
     text-transform: none;
     letter-spacing: 2px;
-    ;
     /*Change Color Later To Brand*/
     color: inherit;
     padding-top: 1rem;
 }
 
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    padding: 10px 0 10px 0;
+}
 
-#menu {
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu { 
     font-size: 1rem;
     letter-spacing: inherit;
     list-style-type: none;
@@ -140,7 +138,17 @@ main {
 #hero {
     height: 500px;
     width: 100%;
+    position: relative;
     background: url(../images/hero.jpg) no-repeat center center/cover;
+}
+
+#cover-text {
+    background-color: rgba(58, 58, 58, 0.8);
+        font-size: 130%;
+        position: absolute;
+        bottom: 30px;
+        color: #f2f2f2;
+        padding: 20px 25px 10px 25px;
 }
 
 .image-customer,
@@ -373,9 +381,18 @@ label {
         display: none;
     }
 
-    /* Main Section */
+        /* Landing Page*/
 
-    /* Landing Page*/
+    /* Hero Section */
+    
+    #cover-text {
+        width: 290px;
+        left: 51px;
+        padding-bottom: 20px;
+
+    }
+
+    /*Main*/
 
     .planets {
         display: flex;
@@ -409,6 +426,7 @@ label {
         text-align: center;
         padding: 30px;
         }
+
     /* Form Section */
 
     #background-form {
@@ -425,9 +443,17 @@ label {
 
 @media screen and (min-width: 1024px) {
 
+    /* main*/
 
     main {
             margin-top: 60px;
+    }
+
+    #cover-text {
+        width: 400px;
+        left: 50px;
+        /* padding-bottom: 20px; */
+        font-size: 160%;
     }
     
     /*This is the Header/ Navigation section*/
