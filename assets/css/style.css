@@ -178,9 +178,15 @@ main {
 }
 
 .review img {
-    height:300px;
-        width: 300px;
+    aspect-ratio: 1;
+        margin-left: auto;
+        margin-right: auto;
         border-radius: 50%;
+        width: 100%;
+        max-width: 280px;
+        max-height: 280px;
+             object-fit: cover; 
+        object-position: center;
 }
 
 .john {
@@ -275,6 +281,10 @@ label {
     .discover {
         display: none;
     }
+
+    p {
+    text-align: justify;
+    }
 }
 
 /*For Screens 320px and larger*/
@@ -327,6 +337,10 @@ label {
 
     main {
         margin-top: 154px;
+    }
+
+    p {
+            text-align: left;
     }
 
     hr {
