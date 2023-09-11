@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Nunito sans", sans-serif;
-    color: rgb(4, 13, 18);
+    color: rgb(24, 61, 61);
 }
 
 a.link-text {
@@ -26,7 +26,7 @@ a.link-text {
 
 /* Header*/
 header {
-    background-color: #808080;
+    background-color: rgb(24, 61, 61);
     padding: 10px 1rem;
     position: fixed;
     z-index: 99;
@@ -67,7 +67,7 @@ h3 {
 #logo,
 .nav-toggle-m,
 #menu {
-    color:#f2f2f2 ;
+    color:rgb(201, 247, 230);
 }
 
 #menu { 
@@ -87,7 +87,7 @@ h3 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px solid rgb(201, 247, 230);
 }
 
 /* Navbar! The basic structure of the navbar in the "Love Running" Project was taken as a template */
@@ -147,11 +147,11 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(58, 58, 58, 0.8);
+    background-color: rgb(24, 61, 61, .8);
         font-size: 130%;
         position: absolute;
         bottom: 30px;
-        color: #f2f2f2;
+        color: rgb(201, 247, 230);
         padding: 20px 25px 10px 25px;
 }
 
@@ -223,7 +223,7 @@ main {
 
 
 #connect-form {
-    background-color: #808080;
+    background-color: rgb(147, 177, 166);
     padding: 25px;
 }
 
@@ -238,12 +238,9 @@ main {
 
 #connect-form>h2 {
     margin-bottom: 1vh;
-    color: rgb(219, 219, 219);
-}
+   }
 
-label {
-    color: rgb(219, 219, 219);
-}
+
 
 .text-field {
     width: 100%;
@@ -255,9 +252,8 @@ label {
 .connect-button {
     padding: 15px;
     font-size: 110%;
-    background-color: #0fe6f6;
-    /* CAll to action color: */
-    color: rgb(114, 114, 114);
+    background-color: rgb(24, 61, 61);
+    color: rgb(199 238 223);
 
 }
 
@@ -267,7 +263,7 @@ label {
 
 /* Footer  */
 #socials {
-    background-color: rgb(114, 114, 114);
+    background-color: rgb(4, 13, 18);
     text-align: center;
     display: flex;
     flex-direction: row;
