@@ -269,14 +269,12 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
-
-
-}
-
-#socials li {
     padding: 1.5vh;
-    color: #0fe6f6;
+    
+
 }
+
+
 
 #socials i {
     font-size: 1.4rem;
