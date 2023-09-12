@@ -262,13 +262,9 @@ The responsive design covers a wide range of devices, from small screens with a 
 
 ### Link and Navigation Testing
 
-- **Link Functionality:** I thoroughly tested all website links, including navigation links, internal links, and external links. This ensures that users can access all sections and that external references are correct.
+- **Link Functionality:** I thoroughly tested all website links, including navigation links and internal links. This ensures that users can access all sections and that external references are correct.
 
 - **Navigation Menu:** I verified that the navigation menu functions correctly and that all links lead to the intended pages and sections.
-
-- **Internal Links:** All internal links were tested for accuracy and functionality.
-
-- **External Links:** There are no external Links
 
 ### Responsive Design and Cross-Device Testing
 
@@ -284,7 +280,7 @@ The responsive design covers a wide range of devices, from small screens with a 
 
 ### Functional Form Testing
 
--**Contact Form:** The contact form was tested to ensure that users can submit inquiries and contact requests successfully.
+- **Contact Form:** The contact form was tested to ensure that users can submit inquiries and contact requests successfully.
 
 - **Validation:** Form fields were tested for validation, including required fields, correct email format, and proper error messaging.
 
