@@ -295,6 +295,10 @@ By conducting these  tests, I aimed to ensured that my website functions seamles
 
 ## Credits
 
+### Code
+
+- The Code for the Navigation Bar was "inspired" by the Love Running Project. I used the bacics to create it, but tried to make it work myself after the basic layout. 
+
 ### Fonts
 
 - Fonts used in this project were sourced from [GoogleFonts](https://fonts.google.com/).
