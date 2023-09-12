@@ -1,7 +1,9 @@
 # Mercury Solutions
 ![Image of Website Mockup on several devices](assets/images/Mockup.png "MockUp")
 
-# Live-Site <https://cosmiccancodes.github.io/mercury-solutions/>
+
+[Live-Site](https://cosmiccancodes.github.io/mercury-solutions "Visit my deployed website")
+
 
 
 - [Introduction](#introduction)
