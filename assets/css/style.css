@@ -379,8 +379,7 @@ label {
   #menu {
     font-size: 1.25rem;
     display: flex;
-    /* padding: 0 10px;*/
-  }
+      }
 
   /* Show the nav element by default on larger screens */
   nav {
@@ -459,7 +458,6 @@ label {
   #cover-text {
     width: 400px;
     left: 50px;
-    /* padding-bottom: 20px; */
     font-size: 160%;
   }
 
