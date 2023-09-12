@@ -203,7 +203,7 @@ The color palette carefully chosen for this website combines symbolism, readabil
 
 ### Contact Form
 
-![Image of Formsection of the Website](assets/images/form.png.png "Form and Article")
+![Image of Formsection of the Website](assets/images/form.png "Form and Article")
 
 - The "Get in Touch" page features a functional contact form, designed in an aesthetic green hue.
 - The form includes fields for name, email, phone, choice of service, and a space for customers to describe their inquiry.
@@ -256,6 +256,45 @@ Due to time constraints, I wasn't able to push the numbers up as I would have li
 ## Responsivity
 
 The responsive design covers a wide range of devices, from small screens with a width of 325px to large screens with up to 5k resolution.
+
+## Testing
+
+### Link and Navigation Testing
+
+- **Link Functionality:** I thoroughly tested all website links, including navigation links, internal links, and external links. This ensures that users can access all sections and that external references are correct.
+
+- **Navigation Menu:** I verified that the navigation menu functions correctly and that all links lead to the intended pages and sections.
+
+- **Internal Links:** All internal links were tested for accuracy and functionality.
+
+- **External Links:** There are no external Links
+
+### Responsive Design and Cross-Device Testing
+
+- **Screen Sizes:** I conducted testing across a wide range of screen sizes and resolutions, from small mobile devices to large desktop monitors through devtools and my phone. The website displayed consistently and responsively across all screen sizes.
+
+- **Cross-Browser Compatibility:** I tested the website on different web browsers, including Chrome, Firefox, Safari, and Edge, to confirm compatibility and consistent rendering.
+
+### User Experience and Feedback
+
+- **Usability Testing:** I conducted usability testing with real users to evaluate the website's overall user experience. Participants provided feedback on navigation, layout, content, and ease of use.
+
+- **Feedback Incorporation:** User feedback was  reviewed and incorporated into website improvements.
+
+### Functional Form Testing
+
+-**Contact Form:** The contact form was tested to ensure that users can submit inquiries and contact requests successfully.
+
+- **Validation:** Form fields were tested for validation, including required fields, correct email format, and proper error messaging.
+
+- **Submission:** I made test submissions to verify that form data is correctly received, processed, and sent.
+
+- **Confirmation:** Users receive a confirmation message after successful form submission, and this was verified to ensure that users are informed of their submission status.
+
+---
+
+By conducting these  tests, I aimed to ensured that my website functions seamlessly, regardless of the user's device or browser.
+
 
 ## Credits
 
