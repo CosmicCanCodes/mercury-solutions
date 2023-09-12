@@ -1,5 +1,5 @@
 # Mercury Solutions
-
+![Image of Website Mockup on several devices](assets/images/Mockup.png "MockUp")
 ## *Introduction*
 
 This project was sparked by the insights of Astrologers like Dr. Christof Niederwieser and Andre Barbault. With the world advancing into the 'Age of Air,' where technology surges and ancient wisdom resurfaces, I found myself combining my passion for coding and astrology.
