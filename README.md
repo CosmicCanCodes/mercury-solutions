@@ -12,7 +12,7 @@
 - [Credits](#credits)
 
 
-## Introduction (#introduction)
+## Introduction 
 
 This project was sparked by the insights of Astrologers like Dr. Christof Niederwieser and Andre Barbault. With the world advancing into the 'Age of Air,' where technology surges and ancient wisdom resurfaces, I found myself combining my passion for coding and astrology.
 
@@ -20,7 +20,7 @@ Astrologers like Dr. Niederwieser predicted significant events, including the pa
 
 The idea is simple: offer a B2B service that combines the insights of major celestial bodies—Jupiter to Pluto—with hard data. The company synthesizes this into understandable narratives that help businesses expand, manage employees better, devise unique strategies, and boost profits. It's about applying ancient wisdom to modern challenges.
 
-# **Strategy:** (#strategy) 
+# **Strategy:** 
 
 A B2B website. The primary goal of the website is to inform the visitor that this is a legitimate Data Analytics service, as well as educate potential customers of the potent insights astrology can provide. It is very important to show credibility, as well as reliability, with B2B businesses. They need to know why and how their business will gain more insight into their area of choice with this service, and not be alienated by the esoteric image astrology has in the west.
 
