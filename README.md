@@ -7,8 +7,10 @@
 - [Scope](#scope)
 - [Structure](#structure)
 - [Skeleton](#skeleton)
-- [Design](#design)
 - [Surface](#surface)
+- [Features](#features)
+- [Deployment](#deployment)
+- [Validation](#validation)
 - [Testing](#testing)
 - [Credits](#credits)
 
@@ -153,25 +155,25 @@ The color palette carefully chosen for this website combines symbolism, readabil
 - **Josefin Sans:** Selected for its practical clarity, Josefin Sans adds a touch of professionalism to the website's design.
 - **Nunito Sans:** Complementary to Josefin Sans, Nunito Sans ensures that the text is easy to read, enhancing the overall user experience.
 
-## Features
+# Features
 
-### Landing Page
+## Landing Page
 
-#### Header and Navigation
+### Header and Navigation
 ![Image of landing Page](assets/images/nav-header.png "Navigation and Header")
 
 - The landing page features a centralized header element with the distinctive Mercury Analytics Logo.
 - The Navigation Menu (nav-menu) is an integral part of the header, providing easy access to different sections of the website.
 - The header design aligns elements professionally and is designed to convey trustworthiness and competence in both Astrology and Data Analytics.
 
-#### Hero Image
+### Hero Image
 
 ![Image of Skyscrapers in Dubai surrounded by clouds](assets/images/hero.webp "Hero")
 
 - The Hero Image welcomes visitors with a captivating image that symbolizes the limitless potential ("The Sky is The Limit").
 - The Hero section serves as an engaging introduction to the website's core theme, combining astrology and data analytics.
 
-#### Big Data and Big 5 Planets Article
+### Big Data and Big 5 Planets Article
 
 ![Image of Cropped out Planets nested in an Article](assets/images/Homepage2.png "Planetary Section")
 
@@ -181,18 +183,18 @@ The color palette carefully chosen for this website combines symbolism, readabil
 - The article introduces users to the concept of the "Big 5 Planets" in astrology, accompanied by images and clear explanations.
 - It offers a compelling narrative, blending the esoteric and the practical to pique visitors' interest.
 
-### Footer
+## Footer
 
-#### Social Media Links
+### Social Media Links
 
 ![Image of the Footer and their Icons](assets/images/Footer.png "Planetary Section")
 
 - The footer section includes links to various social media platforms.
 - Footer design complements the overall aesthetic of the website, maintaining a professional and complementary look.
 
-## Review Section
+# Review Section
 
-### Customer Reviews
+## Customer Reviews
 
 ![Screenshot of Footer Section and Logos](assets/images/Customer_review.png "Footer")
 
@@ -200,9 +202,9 @@ The color palette carefully chosen for this website combines symbolism, readabil
 - Reviews include images of customers, their names, and their experiences.
 - These authentic testimonials provide social proof and build trust with potential clients.
 
-## "Get in Touch" Page
+# "Get in Touch" Page
 
-### Contact Form
+## Contact Form
 
 ![Image of Formsection of the Website](assets/images/form.png "Form and Article")
 
@@ -219,7 +221,7 @@ Chat Service
 Different Products
 A Blog section for Articles
 
-## Deployment
+# Deployment
 
 - The Project was deployed to GitHub pages. In order to deploy, follow the steps as follows:
 
@@ -232,6 +234,8 @@ A Blog section for Articles
   - Under "Source", select branch "Main" and select folder "(Root)".
 
   - Click Save and the page will be automatically refreshed and display to indicate the successful deployment.
+
+# Validation
 
 ## Code and CSS Validation
 
@@ -257,27 +261,27 @@ I attempted to get the Performance up by changing the images from jpeg to webp. 
 
 The responsive design covers a wide range of devices, from small screens with a width of 325px to large screens with up to 5k resolution.
 
-## Testing
+# Testing
 
-### Link and Navigation Testing
+## Link and Navigation Testing
 
 - **Link Functionality:** I thoroughly tested all website links, including navigation links and internal links. This ensures that users can access all sections and that external references are correct.
 
 - **Navigation Menu:** I verified that the navigation menu functions correctly and that all links lead to the intended pages and sections.
 
-### Responsive Design and Cross-Device Testing
+## Responsive Design and Cross-Device Testing
 
 - **Screen Sizes:** I conducted testing across a wide range of screen sizes and resolutions, from small mobile devices to large desktop monitors through devtools and my phone. The website displayed consistently and responsively across all screen sizes.
 
 - **Cross-Browser Compatibility:** I tested the website on different web browsers, including Chrome, Firefox, Safari, and Edge, to confirm compatibility and consistent rendering.
 
-### User Experience and Feedback
+## User Experience and Feedback
 
 - **Usability Testing:** I conducted usability testing with real users to evaluate the website's overall user experience. Participants provided feedback on navigation, layout, content, and ease of use.
 
 - **Feedback Incorporation:** User feedback was  reviewed and incorporated into website improvements.
 
-### Functional Form Testing
+## Functional Form Testing
 
 - **Contact Form:** The contact form was tested to ensure that users can submit inquiries and contact requests successfully.
 
@@ -292,34 +296,34 @@ The responsive design covers a wide range of devices, from small screens with a 
 By conducting these  tests, I aimed to ensured that my website functions seamlessly, regardless of the user's device or browser.
 
 
-## Credits
+# Credits
 
-### Code
+## Code
 
 - The Code for the Navigation Bar was "inspired" by the Love Running Project. I used the bacics to create it, but tried to make it work myself after the basic layout. 
 
-### Fonts
+## Fonts
 
 - Fonts used in this project were sourced from [GoogleFonts](https://fonts.google.com/).
 
-### Color Palette
+## Color Palette
 
 - The color palette for this project was inspired by the palette available at [ColorHunt](https://colorhunt.co/palette/040d12183d3d5c837493b1a6).
 
-### Fav-icon
+## Fav-icon
 
 - The website's favicon was generated using [Favicon.io](https://favicon.io/favicon-generator/).
 
-### Image Conversion
+## Image Conversion
 
 - To convert images for web use, the [FreeConvert](https://www.freeconvert.com/jpg-to-webp/download) tool was employed.
 
-### Hero Image
+## Hero Image
 
 - The Hero Image was sourced from [Pexels](https://www.pexels.com/de-de/foto/sterne-universum-astronomie-jupiter-12498752/).
 - Additional background images were sourced from [Pexels](https://www.pexels.com/de-de/foto/blick-auf-das-stadtbild-325185/).
 
-### Planet Images
+## Planet Images
 
 - Jupiter image: [Pexels](https://www.pexels.com/de-de/foto/sterne-universum-astronomie-jupiter-12498752/)
 - Saturn image: [Unsplash](https://unsplash.com/de/fotos/2W-QWAC0mzI)
@@ -327,7 +331,7 @@ By conducting these  tests, I aimed to ensured that my website functions seamles
 - Uranus image: [Unsplash](https://unsplash.com/de/fotos/Li41RApUAQA)
 - Pluto image: [Unsplash](https://unsplash.com/de/fotos/-5V6VZxSQRo)
 
-### Review Page
+## Review Page
 
 - Images for the Review Page were sourced from Pexels: [1](https://www.pexels.com/de-de/foto/mann-der-blaues-t-shirt-mit-rundhalsausschnitt-tragt-2379005/), [2](https://www.pexels.com/de-de/foto/meer-fashion-mann-strand-7148384/), [3](https://www.pexels.com/de-de/foto/frau-lachelt-in-die-kamera-1181686/), [4](https://www.pexels.com/de-de/foto/lachelnde-frau-die-schwarzen-pullover-tragt-1587009/), [5](https://www.pexels.com/de-de/foto/mann-person-strasse-portrat-8350286/), [6](https://www.pexels.com/de-de/foto/frau-die-weisses-hemd-tragt-1181690/).
 
