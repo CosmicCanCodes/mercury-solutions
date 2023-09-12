@@ -61,7 +61,7 @@ A B2B website. The primary goal of the website is to inform the visitor that thi
 
 *Health and wellness coach: I want to partner with the data analyst to incorporate astrology insights into my coaching programs, offering clients a unique and holistic approach to personal development.*
 
-## Scope (#scope)
+## Scope 
 
 ### In Scope
 
@@ -82,7 +82,7 @@ A B2B website. The primary goal of the website is to inform the visitor that thi
 - Login/User Account
 - A credentials Section with Skillsets in Languages and Astrological Education
 
-## Structure (#structure)
+## Structure 
 
 ### All Pages
 
@@ -104,15 +104,15 @@ A B2B website. The primary goal of the website is to inform the visitor that thi
 - Functional form containing fields with requirements for: name, email, phone, choice of service, and a field for the customer to describe their inquiry, with a sending button.
 - Further explanation of how Mercury Analytics works to create more hype and trust
 
-## Skeleton (#skeleton) 
+## Skeleton 
 
 I had a mental idea of what I wanted to produce on screen.
 
-## Surface (#surface)
+## Surface 
 
 As a B2B and B2C hybrid site, it was important to me to create a mainly simple and aesthetically pleasing website that invited the reader to indulge in the intriguing blend of two themes that usually don't go well together.
 
-### Design (#design)
+### Design 
 
 #### Color Palette
 
