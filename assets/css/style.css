@@ -159,7 +159,7 @@ main {
     height: 500px;
     width: 100%;
     position: relative;
-    background: url(../images/hero.jpg) no-repeat center center/cover;
+    background: url(../images/hero.webp) no-repeat center center/cover;
 }
 
 #cover-text {
@@ -218,7 +218,7 @@ main {
 
 /* Form Page */
 #background-form {
-    background-image: url(../images/hero.jpg);
+    background-image: url(../images/hero.webp);
     background-size: cover;
     background-position: 1%;
     padding: 10% 10% 30px 10%;
