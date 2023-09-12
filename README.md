@@ -105,7 +105,7 @@ A B2B website. The primary goal of the website is to inform the visitor that thi
 ### About Page
 
 - Functional form containing fields with requirements for: name, email, phone, choice of service, and a field for the customer to describe their inquiry, with a sending button.
-- Further explanation of how Mercury Analytics works to create more hype and trust
+- Further explanation of how Mercury Analytics works to create more hype and trust.
 
 ## Skeleton 
 
@@ -215,11 +215,11 @@ The color palette carefully chosen for this website combines symbolism, readabil
 
 ## Features left to implement
 
-Different Languages
-Login section
-Chat Service
-Different Products
-A Blog section for Articles
+- Different Languages
+- Login section
+- Chat Service
+- Different Products
+- A Blog section for Articles
 
 # Deployment
 
@@ -240,9 +240,9 @@ A Blog section for Articles
 ## Code and CSS Validation
 
 ![Image of CSS Validator](assets/images/css_validated.png "CSS validation")
-![Image of HTML index Validation](assets/images/home_validated.png "Index validation")!
-![Image of HTML review Validation](assets/images/review_validated.png "Review Page validation")!
-![Image of HTML form Validation](assets/images/form_validated.png "Form Page validation")!
+![Image of HTML index Validation](assets/images/home_validated.png "Index validation")
+![Image of HTML review Validation](assets/images/review_validated.png "Review Page validation")
+![Image of HTML form Validation](assets/images/form_validated.png "Form Page validation")
 
 In the „Connect“ and „Form“ sections, there was an issue displayed with the „charset“ meta attribute, as well as multiple stray trailing slashes that had to be removed. 
 
@@ -251,9 +251,9 @@ After clearing them up, I got everything validated.
 ## Lighthouse
 
 
-![Image of Lighthouse for the Homepage](assets/images/home_lighthouse.png "Index validation")!
-![Image of Ligthouse for the Review Page](assets/images/review_lighthouse.png "Review Page validation")!
-![Image of Lighthouse for the Form Page](assets/images/form_lighthouse.png "Form Page validation")!
+![Image of Lighthouse for the Homepage](assets/images/home_lighthouse.png "Index validation")
+![Image of Ligthouse for the Review Page](assets/images/review_lighthouse.png "Review Page validation")
+![Image of Lighthouse for the Form Page](assets/images/form_lighthouse.png "Form Page validation")
 
 I attempted to get the Performance up by changing the images from jpeg to webp. I think with a bit more finesse and expertise, I will bring that up to the high 90's as well. 
 
