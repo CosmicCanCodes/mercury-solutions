@@ -23,6 +23,7 @@ max-width: 1800px;
 
 a.link-text {
   text-decoration: underline;
+  color: rgb(24, 61, 61);
 }
 
 /* Header*/
