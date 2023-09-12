@@ -197,7 +197,7 @@ The color palette carefully chosen for this website combines symbolism, readabil
 
 ### Contact Form
 
-![Image of Formsection of the Website](assets/images/form.png.png "Form and Article)
+![Image of Formsection of the Website](assets/images/form.png.png "Form and Article")
 
 - The "Get in Touch" page features a functional contact form, designed in an aesthetic green hue.
 - The form includes fields for name, email, phone, choice of service, and a space for customers to describe their inquiry.
@@ -228,10 +228,24 @@ A Blog section for Articles
 
 ## Code and CSS Validation
 
+![Image of CSS Validator](assets/images/css_validated.png "CSS validation")
+![Image of HTML index Validation](assets/images/home_validated.png "Index validation")!
+![Image of HTML review Validation](assets/images/review_validated.png "Review Page validation")!
+![Image of HTML form Validation](assets/images/form_validated.png "Form Page validation")!
 
-In the „Connect“ and „Form“ sections, there was an issue displayed with the „charset“ meta attribute.
+In the „Connect“ and „Form“ sections, there was an issue displayed with the „charset“ meta attribute, as well as multiple stray trailing slashes that had to be removed. 
 
-Due to repeated Connectivity & Software Issues from CodeAnywhere and Bad Time Managment, I wasn't able to commit the last minute changes on time.
+After clearing them up, I got everything validated.
+
+## Lighthouse
+
+
+![Image of Lighthouse for the Homepage](assets/images/home_lighthouse.png "Index validation")!
+![Image of Ligthouse for the Review Page](assets/images/review_lighthouse.png "Review Page validation")!
+![Image of Lighthouse for the Form Page](assets/images/form_lighthouse.png "Form Page validation")!
+
+Due to time constraints, I wasn't able to push the numbers up as I would have liked.
+
 
 ## Responsivity
 
