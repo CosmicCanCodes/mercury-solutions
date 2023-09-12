@@ -1,6 +1,18 @@
 # Mercury Solutions
 ![Image of Website Mockup on several devices](assets/images/Mockup.png "MockUp")
-## *Introduction*
+
+
+- [Introduction](#introduction)
+- [Strategy](#strategy)
+- [Scope](#scope)
+- [Structure](#structure)
+- [Skeleton](#skeleton)
+- [Design](#design)
+- [Surface](#surface)
+- [Credits](#credits)
+
+
+## Introduction (#introduction)
 
 This project was sparked by the insights of Astrologers like Dr. Christof Niederwieser and Andre Barbault. With the world advancing into the 'Age of Air,' where technology surges and ancient wisdom resurfaces, I found myself combining my passion for coding and astrology.
 
@@ -8,7 +20,7 @@ Astrologers like Dr. Niederwieser predicted significant events, including the pa
 
 The idea is simple: offer a B2B service that combines the insights of major celestial bodies—Jupiter to Pluto—with hard data. The company synthesizes this into understandable narratives that help businesses expand, manage employees better, devise unique strategies, and boost profits. It's about applying ancient wisdom to modern challenges.
 
-# **Strategy:**
+# **Strategy:** (#strategy) 
 
 A B2B website. The primary goal of the website is to inform the visitor that this is a legitimate Data Analytics service, as well as educate potential customers of the potent insights astrology can provide. It is very important to show credibility, as well as reliability, with B2B businesses. They need to know why and how their business will gain more insight into their area of choice with this service, and not be alienated by the esoteric image astrology has in the west.
 
@@ -49,9 +61,9 @@ A B2B website. The primary goal of the website is to inform the visitor that thi
 
 *Health and wellness coach: I want to partner with the data analyst to incorporate astrology insights into my coaching programs, offering clients a unique and holistic approach to personal development.*
 
-# Scope
+## Scope (#scope)
 
-## In Scope
+### In Scope
 
 - Clean, concise, and simple design that conveys professionalism and
    competence in both Astrology and Data
@@ -63,76 +75,70 @@ A B2B website. The primary goal of the website is to inform the visitor that thi
 - A form to book a call or get in touch
 - High-quality images
 
-## Out of Scope
+### Out of Scope
 
 - One Pager
 - Chat-section
 - Login/User Account
 - A credentials Section with Skillsets in Languages and Astrological Education
 
-# Structure
+## Structure (#structure)
 
-**All Pages**
+### All Pages
 
 - Functional Navigation to all Pages of the Website
 - Footer to social media platforms
   
-**Homepage**
+### Homepage
 
 - Hero Image with an Introduction Section to Big Data and Astrology
 - Call to Action and Form
 - A „Big Data and Big 5“ Section where the Philosophy and approach of Mercury Analytics is being explained, and a short explanation of the Big 5 Planets with images
 
-  **Review-Page:**
+### Review-Page
 
 - Reviews of past customers with images, names and experiences
   
-  **About Page**
+### About Page
 
 - Functional form containing fields with requirements for: name, email, phone, choice of service, and a field for the customer to describe their inquiry, with a sending button.
 - Further explanation of how Mercury Analytics works to create more hype and trust
 
-# Skeleton
+## Skeleton (#skeleton) 
 
 I had a mental idea of what I wanted to produce on screen.
 
-# Surface
+## Surface (#surface)
 
 As a B2B and B2C hybrid site, it was important to me to create a mainly simple and aesthetically pleasing website that invited the reader to indulge in the intriguing blend of two themes that usually don't go well together.
 
-## Design
+### Design (#design)
 
-### Color Palette
+#### Color Palette
 
- **Green:** The choice of green as the main color theme aligns with the concept of Mercury, the planet associated with Analytics and Astrology.
-
-## Design
-
-### Color Palette
-
-- **Main Color Theme**: Green
+- ##### Main Color Theme: Green
   - I chose green as the primary color theme for this website to symbolize Mercury, the planet associated with Analytics and Astrology, aligning with the core themes of the project.
 
-- **Background Color**: Neutral with Opacity
+- ##### Background Color: Neutral with Opacity
   - The background color is a neutral shade with opacity, rgba(238, 238, 238, 0.75), offering a subtle backdrop that doesn't distract from the content.
 
-- **Nav and Footer Background Colors**:
+- ##### Nav and Footer Background Colors:
   - Larger screens: rgb(24, 61, 61)
   - Smaller screens with dropdown menus: rgb(201, 247, 230)
   - The use of different background colors ensures a responsive and visually appealing experience for users.
 
-- **Footer Favicons**:
+- ##### Footer Favicons:
   - The footer favicons are styled with the color blanchedalmond, which contrasts effectively with the green theme and adds a touch of uniqueness to the design.
 
-- **Link Colors**:
+- ##### Link Colors:
   - For dark backgrounds: rgb(201, 247, 230)
   - For light backgrounds: rgb(24, 61, 61)
   - These link colors provide clear visibility and consistency in design across different sections of the website.
 
-- **Call to Action Button Color**:
+- ##### Call to Action Button Color:
   - The Call to Action Button is styled with the color rgb(199, 238, 223), making it visually prominent and encouraging user interaction.
 
-- **Active Color**:
+- ##### Active Color:
   - An active color of rgb(201, 247, 230) is used to emphasize interactive elements and provide visual feedback to users.
 
 ---
@@ -141,14 +147,14 @@ The color palette carefully chosen for this website combines symbolism, readabil
 
 ---
 
-### Fonts
+#### Fonts
 
 - **Josefin Sans:** Selected for its practical clarity, Josefin Sans adds a touch of professionalism to the website's design.
 - **Nunito Sans:** Complementary to Josefin Sans, Nunito Sans ensures that the text is easy to read, enhancing the overall user experience.
 
-# Features
+## Features
 
-## Landing Page
+### Landing Page
 
 #### Header and Navigation
 ![Image of landing Page](assets/images/nav-header.png "Navigation and Header")
@@ -185,7 +191,7 @@ The color palette carefully chosen for this website combines symbolism, readabil
 
 ## Review Section
 
-#### Customer Reviews
+### Customer Reviews
 
 ![Screenshot of Footer Section and Logos](assets/images/Customer_review.png "Footer")
 
