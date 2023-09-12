@@ -151,17 +151,24 @@ The color palette carefully chosen for this website combines symbolism, readabil
 ## Landing Page
 
 #### Header and Navigation
+![Image of landing Page](assets/images/nav-header.png "Navigation and Header")
 
 - The landing page features a centralized header element with the distinctive Mercury Analytics Logo.
 - The Navigation Menu (nav-menu) is an integral part of the header, providing easy access to different sections of the website.
 - The header design aligns elements professionally and is designed to convey trustworthiness and competence in both Astrology and Data Analytics.
 
-#### Hero Section
+#### Hero Image
 
-- The Hero section welcomes visitors with a captivating image that symbolizes the limitless potential ("The Sky is The Limit").
+![Image of Skyscrapers in Dubai surrounded by clouds](assets/images/hero.webp "Hero")
+
+- The Hero Image welcomes visitors with a captivating image that symbolizes the limitless potential ("The Sky is The Limit").
 - The Hero section serves as an engaging introduction to the website's core theme, combining astrology and data analytics.
 
 #### Big Data and Big 5 Planets Article
+
+![Image of Cropped out Planets nested in an Article](assets/images/Homepage2.png "Planetary Section")
+
+![Image of Cropped out Planets nested in an Article](assets/images/Homepage1.png "Planetary Section")
 
 - A dedicated section explains the philosophy and approach of Mercury Analytics.
 - The article introduces users to the concept of the "Big 5 Planets" in astrology, accompanied by images and clear explanations.
@@ -171,12 +178,16 @@ The color palette carefully chosen for this website combines symbolism, readabil
 
 #### Social Media Links
 
+![Image of the Footer and their Icons](assets/images/Footer.png "Planetary Section")
+
 - The footer section includes links to various social media platforms.
 - Footer design complements the overall aesthetic of the website, maintaining a professional and complementary look.
 
 ## Review Section
 
 #### Customer Reviews
+
+![Screenshot of Footer Section and Logos](assets/images/Customer_review.png "Footer")
 
 - The Review Section showcases testimonials from past customers, adding credibility to the service.
 - Reviews include images of customers, their names, and their experiences.
@@ -185,6 +196,8 @@ The color palette carefully chosen for this website combines symbolism, readabil
 ## "Get in Touch" Page
 
 ### Contact Form
+
+![Image of Formsection of the Website](assets/images/form.png.png "Form and Article)
 
 - The "Get in Touch" page features a functional contact form, designed in an aesthetic green hue.
 - The form includes fields for name, email, phone, choice of service, and a space for customers to describe their inquiry.
@@ -215,7 +228,7 @@ A Blog section for Articles
 
 ## Code and CSS Validation
 
-Apart from a whopping number of 40 hints in the landing page there wheren't any errors.
+
 In the „Connect“ and „Form“ sections, there was an issue displayed with the „charset“ meta attribute.
 
 Due to repeated Connectivity & Software Issues from CodeAnywhere and Bad Time Managment, I wasn't able to commit the last minute changes on time.
