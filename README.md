@@ -251,8 +251,7 @@ After clearing them up, I got everything validated.
 ![Image of Ligthouse for the Review Page](assets/images/review_lighthouse.png "Review Page validation")!
 ![Image of Lighthouse for the Form Page](assets/images/form_lighthouse.png "Form Page validation")!
 
-Due to time constraints, I wasn't able to push the numbers up as I would have liked.
-
+I attempted to get the Performance up by changing the images from jpeg to webp. I think with a bit more finesse and expertise, I will bring that up to the high 90's as well. 
 
 ## Responsivity
 
